@@ -1,0 +1,141 @@
+﻿/* 
+   The below CSS file was built using samples + techniques described by Rachel Andrew in her book:
+   The CSS Anthology: 101 Essential Tips, Tricks & Hacks
+*/
+
+/* Overall Page */
+
+body 
+{
+    /*
+	margin: 0;
+	padding-bottom: 2em;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top: 2px solid #B51032;
+    */
+}
+
+/* Header Section */
+
+#header {
+	border-top: 3px solid #B51032;
+	border-bottom: 1px dotted #B51032;
+	height: 3em;
+}
+#header .title {
+	font: 190% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: transparent;
+	float: left;
+	margin-right: 2em;
+	margin-top: 0.3em;
+	margin-left: .8em;
+}
+#header .breadcrumb {
+	font: 90% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: transparent;
+	float: right;
+	margin-right: 2em;
+	margin-top: 0.8em;
+	font-weight:bold;
+}
+
+#header a:link, a:visited  {
+	color: #B51032;
+}
+
+.spanAccordionHeader
+{
+   width: 200px;
+   background-color: #e44c16; 
+   color: #FFFFFF;
+   width: 13em;
+   margin-top:2px;
+
+}
+/* Navigation */
+
+#navigation {
+
+	/*top: 6em;*/
+	left: 1em;
+	width: 13em;	
+	position:absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+}
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	border-bottom: 1px solid #ED9F9F;
+	background-color: #ec8026;
+}
+#navigation li a  {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #ec8026;
+	border-right: 1px solid #ec8026;
+	background-color: #ec8026;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navigation li a:hover {
+	background-color: #ec8026;
+	color: #FFFFFF;
+}
+#navigation ul ul {
+	margin-left: 12px;
+}
+#navigation ul ul li {
+	border-bottom: 1px solid #ec8026;
+	margin:0;
+	background-color: #fcaf17;
+	/*color: #ec8026;*/
+	
+}
+#navigation ul ul a:link, #navigation ul ul a:visited {
+	background-color: #fcaf17; 
+	/* color: #ec8026; */
+	color: #FFFFFF; 
+	
+}
+
+#navigation li a:visited {
+	background-color: #fcaf17; 
+
+	/* color: #ec8026; */
+	/*color: #FFFFFF; */
+	color: #B51032;
+}
+#navigation ul ul a:hover {
+	background-color: #ec8026;
+	color: #FFFFFF;
+}
+
+/* Main Content */
+
+#contentMain 
+{
+	margin-top:1em;
+    margin-left: 1em;
+	margin-right: 2em;
+}
+h1 {
+	font: 150% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+}
+#contentMain  p {
+	font-size: 80%;
+	line-height: 1.6em; 
+}
+
+#contentMain ul {
+	font-size: 80%;
+	line-height: 1.6em; 
+}
+

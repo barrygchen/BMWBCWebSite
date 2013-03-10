@@ -1,0 +1,9 @@
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Calandrella_Calandrella', '16 Notre Dame Road', 'Acton', 'MA', '01720', 'USA', '9782632867');
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Cao_Lu', '6 Myrtle Drive', 'Acton', 'MA', '01720', 'USA', '5083089050');
+
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Li_Zheng', '23 Oak Meadow Road', 'Lincoln', 'MA', '01773', 'USA', '7812599630');
+
+
+

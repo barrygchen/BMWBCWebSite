@@ -1,0 +1,189 @@
+--INSERT INTO Family
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Calandrella_Calandrella', '16 Notre Dame Road', 'Acton', 'MA', '01720', 'USA', '9782632867');
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Cao_Lu', '6 Myrtle Drive', 'Acton', 'MA', '01720', 'USA', '5083089050');
+
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Li_Zheng', '23 Oak Meadow Road', 'Lincoln', 'MA', '01773', 'USA', '7812599630');
+
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone) VALUES ('Doe_Doe', '1 Main Street', 'No Place', 'MA', '01773', 'USA', '97812599630');
+
+INSERT INTO Family(FamilyLastNames,Street_Address,Town,State, ZipCode, Country, Phone, isActive) VALUES ('Left_Town', '2 Hidden Street', 'Hollywood', 'MA', '91210', 'USA', null, 0);
+
+
+-- INSERT INTO Fellowship
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Love', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Joy', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Peace', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Kindness', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Faithfulness', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Goodness', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Youth', 1);
+
+INSERT INTO Fellowship(Fellowship,isActive) VALUES ('Other', 1);
+
+
+
+--INSERT INTO EEMInistryFollowupStatus
+
+INSERT INTO EEMInistryFollowupStatus (StatusDetail,isActive) VALUES ('Phone Appointment', 1)
+
+INSERT INTO EEMInistryFollowupStatus (StatusDetail,isActive) VALUES ('First Home or in Person Visit', 1)
+
+INSERT INTO EEMInistryFollowupStatus (StatusDetail,isActive) VALUES ('Second Home or in Person Visitt', 1)
+
+INSERT INTO EEMInistryFollowupStatus (StatusDetail,isActive) VALUES ('Other', 1)
+
+--INSERT INTO ChurchMember
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(1, 'Calandrella', 'Dick', null, 'M', null, '9782632867', null, null, 'dickcalandrella@earthlink.net',
+			8, 0, 0, 1, 1)  
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(1, 'Calandrella', 'Nancy', null, 'F', null, '9782632867', null, null, 'dickcalandrella@earthlink.net',
+			8, 1, 1, 1, 1)      
+    
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(2, 'Cao', 'Yong', null, 'M', null, null, '5083089050', null, 'lukeke@gmail.com',
+			6, 1, 1, 1, 1)  
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(2, 'Lu', 'Keke', null, 'F', null, null,null, null, 'lukeke@gmail.com',
+
+			6, 1, 1, 1, 1)  
+
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(3, 'Li', 'Mingche', null, 'M', null,  '7812599630', null, null, 'Mingcheli@aol.com',
+			8, 1, 1, 1, 1)  
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(3, 'Zheng', 'June', null, 'F', null, null,null, null, 'Mingcheli@aol.com',
+			8, 1, 1, 1, 1)  
+
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(4, 'Ma', 'Donghai', null, 'M', null,  '9782637247', null, null, 'donghaima@gmail.com',
+			5, 1, 1, 1, 1)  
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(4, 'Zuo', 'Guoying', null, 'F', null,  '9782637247', null, null, 'guoying_zuo@yahoo.com',
+			5, 1, 1, 1, 1) 
+
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(4, 'Xu', 'Weiran', null, 'M', null,  '9784659603', '5086927614', null, 'xu_weiran@yahoo.com',
+			5, 1, 1, 1, 1)  
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(4, 'Fu', 'Grace', null, 'F', null,  '9784659603', null, null, 'grace_g_fu@yahoo.com',
+			5, 1, 1, 1, 1) 
+
+
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(6, 'Doe', 'John', null, 'M', null,  '97812599630', null, null, null,
+			8, 1, 1, 1, 1)  
+			
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(6, 'Doe', 'Jane', null, 'F', null,  '97812599630', null, null, null,
+			8, 1, 1, 1, 1)  
+
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(7, 'Left', 'John', null, 'M', null,  null, null, null, null,
+			8, 1, 1, 1, 1)  
+			
+			
+INSERT INTO ChurchMember(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Home_Phone,Cell_Phone,Business_Phone,
+			Email,FellowshipID,isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+			(7, 'Town', 'Jane', null, 'F', null,  null, null, null, null,
+			8, 1, 1, 1, 1)  
+			
+
+           
+--INSERT INTO ChildrenList
+
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (2, 'Cao', 'Alvin', null, 'M', null, null, null, 0, 0, 1, 1)
+          
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (2, 'Cao', 'Cailyn', null, 'F', null, null, null, 0, 0, 1, 1)
+
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (3, 'Li', 'Edith', null, 'F', null, null, null, 0, 0, 1, 1)
+          
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (3, 'Li', 'Beth', null, 'F', null, null, null, 0, 0, 1, 1)
+
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (3, 'Li', 'Yuneng', null, 'M', null, null, null, 0, 0, 1, 1)
+
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (4, 'Ma', 'Kaith', null, 'F', null, null, null, 1, 1, 1, 1)
+
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (4, 'Ma', 'Eric', null, 'M', null, null, null, 0, 0, 1, 1)
+
+INSERT INTO ChildrenList(FamilyID,Last_Name,First_Name,MiddlelInitial,Sex,DOB,Phone,Email,
+			isChristian,isChartMember,isShowInDirectory,isActive)
+     VALUES
+          (5, 'Xu', 'Issac', null, 'M', null, null, null, 0, 0, 1, 1)
+          
+          
+
+
+
+

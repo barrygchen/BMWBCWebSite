@@ -1,0 +1,475 @@
+﻿html, body, h1, h2, h3, ul, li, ol, a, div, table, td, tr, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+	/*background-color: #e9e9e9;*/
+	font-family:verdana,arial,sans-serif;
+	font-size: 9pt;
+	color:#666;
+}
+
+.smallMargin
+{
+margin-left:5pt;
+margin-right:5pt;
+}
+
+/* Don't know how to do this otherwise.  Doing this in the style applied to the whole tab container results
+   in tabs with no formatting */
+div#ctl00_ContentPlaceHolder1_TabContainerGRSC_body
+{
+margin-left:0;
+margin-right:0;
+padding:0 0 0 0;
+}
+
+.body
+{
+    color: #666;
+	font-family:verdana,arial,sans-serif;
+    font-size: 10pt;
+    border-color: Silver;
+    border:none;
+    text-align:left;
+    background: White;
+}
+
+.bodyCentered
+{
+    color: #666;
+	font-family:verdana,arial,sans-serif;
+    font-size: 10pt;
+    border-color: Silver;
+    border:none;
+    text-align:center;
+}
+
+.Header1
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    border:none;
+}
+.Body1
+{
+}
+
+.validationControl
+{
+    vertical-align:middle;
+    color:Red;
+}
+
+.noScrollBar
+{
+    overflow:hidden;
+}
+.completionList
+{
+    overflow:scroll;
+    height:80px;
+}
+
+.submitBox
+{
+	background-color: #F5F5F5;
+    color: #404040;
+    font-family: Arial,Verdana;
+    font-size: 10pt;
+    border-style: groove;
+    border-color: #404040;
+    border-width: thin;
+}
+
+.splashBox
+{
+   background-color: White;
+   padding:5px 5px 5px 5px;
+}
+
+.overlay
+{
+    position:relative;
+    z-index:1;
+    height:0px;
+}
+
+.submitButton
+{
+    color: #303030;
+}
+/* Collapse Panel Styles */
+.collapsePanel
+{
+    height: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.collapsePanelHeader
+{
+    color: White;
+    background-color: #923222;
+    font-weight: bolder;
+    font-family: Arial,Verdana;
+    font-size: 10pt;
+    cursor: pointer;
+    vertical-align: middle;
+    
+    padding: 1px 0px 1px 0px;   
+}
+
+.collapseSubPanelHeader
+{
+    /* background-color:#EC8026; */
+    background-color: #ec8026;
+    color: White;
+    font-family: Arial,Verdana;
+    font-size: 10pt;
+}
+
+.frameBorder
+{
+    border: none; /* thin groove Silver; */
+}
+.closeBox
+{
+    float: right;
+}
+
+.panelPopUp
+{
+    outline-style: groove;
+}
+
+.hidden
+{
+    display:none;
+}
+.filterStatus
+{
+    text-align:left;
+    z-index:-1;
+    font-weight:normal;
+}
+
+label
+{
+    font-weight: normal;
+    font-family: Arial,Verdana;
+    font-size: 9pt;
+}
+
+.rightItem
+{
+    text-align: right;
+    padding-right: 8px;
+}
+/* Header Styles */
+span#ctl00_head_UserLabel
+{
+    float: right;
+    font-weight: bold;
+    font-family: Arial,Verdana;
+    color: #923222;
+    position: relative;
+    top: 10px;
+}
+
+.simpleHeader
+{
+   vertical-align:middle;
+   height:30pt;
+   
+}
+
+.watermark
+{
+  background-color:#F8D088;
+  font-style:oblique;
+}
+
+.watermarkRequired
+{
+  background-color:#F8C078;
+  font-weight:bold;
+}
+
+div#header
+{
+    /* border-bottom: 3px solid #E44C16; */
+    margin-bottom: 10px;
+}
+
+/* This is the application logo */
+div#logo
+{
+    float: left;
+}
+/* This is the application title text */
+.title
+{
+    font-weight: normal;    
+    font-family: Arial,Verdana;
+    font-size: 14pt;
+        background-color: #fff;
+        color: #e44c16;
+        float:left;
+        padding: 5px 5px 0 0px;
+    border:none;
+}
+
+.companyTitle
+{
+    color:Maroon;
+    }
+
+.headerWelcome
+{
+        border-bottom: 7px solid #e44b15;
+        text-align: right;
+        padding:0 20px 0 0;
+        font-size:10pt;
+}
+
+.headerFeedback
+{
+        border-bottom: 7px solid #fdaf17;
+        padding: 0 20px 4px 0;
+        text-align: right;
+        font-size:10pt;
+        margin-bottom: 2px;
+        line-height: 11px;
+}
+.footerCopyright
+{
+    color:White;
+    background-color:#e44b15;
+}
+
+.title2
+{
+    color: White; /* #923222; */
+    background-image: url('Images/MockGRSCHeader4.002.png');
+    background-repeat:repeat;
+    border:none;
+    vertical-align:bottom;  
+     
+}
+.title3
+{
+    font-weight:normal;
+    font-family:Calibri;
+    font-size: 20pt;
+    position:relative; top:-9pt;
+}
+
+.subtitle
+{
+    font-weight: bold;
+    font-family: Arial,Verdana;
+    font-size: 11pt;
+    color: #923222;
+    height: 25px; /* vertical-align: bottom; */ /* position: relative; 	top: 10px; 	left: 5px; */
+}
+
+.niceHyperlink
+{
+    /* color: #923222; */
+    color: #29477f;
+
+}
+
+.warning
+{
+    color:White;
+    text-align:center;
+    font-weight: normal;    
+    font-family: Arial,Verdana;
+    font-size: 14pt;
+    background-color:Red;
+}
+
+.leftFloat
+{
+   float:left;
+   }
+   
+
+.rightFloat
+{
+   float:right;
+   }
+   
+.searchItems
+{
+    height: 100px;
+    width:90%;
+}
+
+.failedSearchItems
+{
+    height: 65px;
+    color:Red;
+    width:90%;
+}
+
+/* Page Header Styles */
+div#novartislogo
+{
+    text-align: right;
+    float: right;
+}
+
+/* Page Footer Styles */
+div#footer
+{
+    font-family: Arial, Verdana;
+    font-size: 8pt;
+    color: gray;
+    text-align: center;
+}
+/*
+div#footer a
+{
+    padding: 8px;
+}
+*/
+
+div#footer img
+{
+    border: none;
+}
+
+
+/* Table Style Sheets */
+/* Used for odd rows of tables.  Even rows are white. */
+.oddRow
+{
+    background-color: Silver;
+}
+
+.sortingImage
+{
+    margin-left: 3px;
+    vertical-align:middle;
+}
+.checkBox
+{
+    vertical-align: middle;
+}
+/* Used for the header row of a table. */
+.headerRow
+{
+    border:2px;
+    background-color: #ec8026;
+    text-align: left;
+    /*color: #FFFFFF; */ 
+    color:White;
+    font-family: Verdana;
+    font-size: 9pt;
+    padding: 3px;
+    border: none;
+    text-decoration: none;
+}
+
+
+.noUnderline
+{
+    text-decoration: none;
+}
+
+.mouseHand
+{
+  cursor:pointer;
+  }
+  
+.detailPanel
+{
+    width:850px;
+    height:460px;
+}
+
+.detailData
+{
+    background-color: White;
+    color: #404040;
+    font-family: Arial,Verdana;
+    font-size: 10pt;
+}
+
+
+/* This style is designed to cover up the row above it.  Used to hide
+   progress indicators which have to show while iframes load. 
+   
+   IE6 seems to require that this height is 80 pixels larger than the height specified
+   in detailPanel.
+   */
+   
+.detailIframe
+{
+    width:848px;
+    height:380px;
+    border-style:none;
+}
+
+
+.messageBox
+{
+    text-align:center;
+    width:50%;
+    overflow:hidden;
+    border-style:none;
+    
+}
+
+.td
+{
+    font-family: Arial,Verdana;
+    font-size: 8pt;
+    border: none;
+    height: auto;
+}
+
+/* Used for the Column headers */
+/* th
+{
+    text-align: left;
+    color: White;
+    font-family: Arial,Verdana;
+    font-size: 9pt;
+    padding: 3px;
+    border: none;
+    text-decoration:none;
+}
+
+*/ 
+
+th a
+{
+    text-decoration:none;
+}
+table.orderGrid
+{
+    border: rows;
+    width: 100%;
+}
+
+/* This is for the fields inside the address detail view */
+#ctl00_ContentPlaceHolder1_DetailsViewAddress input
+{
+    width : 98%;
+}
+    
+.test-system-label 
+{
+    color: #FF0000;
+    font-size: 22px;
+}   

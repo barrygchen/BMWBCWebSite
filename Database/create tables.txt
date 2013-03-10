@@ -1,0 +1,81 @@
+-- Create Tables
+
+-- Create Family table, it will automatically generate an unique family ID
+USE [BMWBC]
+GO
+
+/****** Object:  Table [dbo].[Family]    Script Date: 11/11/2012 17:47:49 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Family](
+	[FamilyID] [int] IDENTITY(1,1) NOT NULL,
+	[FamilyLastNames] [varchar](50) NULL,
+	[Street_Address] [varchar](200) NULL,
+	[Town] [varchar](50) NULL,
+	[State] [varchar](50) NULL,
+	[ZipCode] [char](5) NULL,
+	[Country] [varchar](50) NULL,
+	[Phone] [nchar](10) NULL,
+ CONSTRAINT [PK_Family] PRIMARY KEY CLUSTERED 
+(
+	[FamilyID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+USE [BMWBC]
+GO
+
+/****** Object:  Table [dbo].[AwanaRegistration]    Script Date: 03/04/2013 20:50:56 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[AwanaRegistration](
+	[FamilyPhone] [nchar](20) NULL,
+	[FamilyEmail] [varchar](50) NULL,
+	[ChildLastName] [varchar](50) NULL,
+	[ChildFirstName] [varchar](50) NULL,
+	[DOB] [smalldatetime] NOT NULL,
+	[Gender] [char](4) NULL,
+	[AwanaGrade] [nchar](10) NULL,
+	[MotherLastName] [varchar](50) NULL,
+	[MotherFirstName] [varchar](50) NULL,
+	[MotherWorkPhone] [nchar](20) NULL,
+	[MotherCellPHone] [nchar](20) NULL,
+	[FatherLastName] [varchar](50) NULL,
+	[FatheFirstName] [varchar](50) NULL,
+	[FatherWorkPhone] [nchar](20) NULL,
+	[FatherCellPhone] [nchar](20) NULL,
+	[FellowshipID] [int] NULL,
+	[RegisteredSession] [int] NULL,
+	[PhysicianName] [varchar](50) NULL,
+	[PhysicianPhone] [nchar](20) NULL,
+	[HandbookNeeded] [bit] NOT NULL,
+	[VestNeeded] [bit] NULL,
+	[IsFeeCollected] [bit] NULL,
+	[SPECIALNEEDS] [varchar](1000) NULL,
+	[isActive] [char](10) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO

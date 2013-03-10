@@ -1,0 +1,4 @@
+C:\My Documents\ChurchManagement\DataAccess\bin\Debug\DataAccess.dll
+C:\My Documents\ChurchManagement\DataAccess\bin\Debug\DataAccess.pdb
+C:\My Documents\ChurchManagement\DataAccess\obj\Debug\DataAccess.dll
+C:\My Documents\ChurchManagement\DataAccess\obj\Debug\DataAccess.pdb

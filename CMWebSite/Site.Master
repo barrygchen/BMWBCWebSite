@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CMWebSite.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+      
+    <link rel="shortcut icon" type="image/x-icon" href="css/dropdown/themes/nvidia.com/images/favicon.ico" />
+<link href="css/dropdown/themes/nvidia.com/helper.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- Beginning of compulsory code below -->
+
+<link href="css/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/dropdown/themes/nvidia.com/default.advanced.css" media="screen" rel="stylesheet" type="text/css" />
+   <link href="Styles/sig-common.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <%--    <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />--%>
+    <%--    <link type="text/css" href="Styles/demo_page.css" rel="stylesheet" />--%>
+      
+    <%--    <link href="Styles/GRSC.css" rel="stylesheet" type="text/css" />--%>
+  
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.dropdown.js"></script>
+<![endif]-->
+
+    <script src="Scripts/JqueryCollection/jquery.dataTables.min.js" type="text/javascript"></script>
+
+  <%--  <script src="Scripts/jquery.dataTables.min.js" type="text/javascript"></script>--%>
+ 
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  
+     <form id="form1" runat="server">
+        <div class="container_12">
+      
+                <h2>Boston Metrowest Bible Church</h2>
+                    <div>
+                        <ul class="dropdown dropdown-horizontal">
+                      
+                                       
+                        <li > <a href="#">BMWBC Home</a>
+                             <ul>
+                                <li> <a href="../Home/ChurchHome.aspx"  >Home</a>
+                                                
+                                </li>
+                                
+                                <li> <a href="../Home/FamilyList.aspx"  >List of Families</a>
+                                                
+                                </li>
+                                 <li> <a href="../Home/MemberList.aspx"  >List of Members</a>
+                                                
+                                </li>
+                                                   
+                            </ul>
+                        </li>  
+                        <li > <a href="#">Children Minsitry</a>
+                             <ul>
+                                <li><a href="#">AWANA</a>
+                                    <ul>
+	                                    <li > <a href="../ChildrenMinistry/AWANARegistration.aspx"  >AWANA Registration</a>
+                                        </li>
+	                                    <li> <a href="../ChildrenMinistry/AWANAFeeCollection.aspx">AWANA Fee Collection</a></li>
+                                        <li> <a href="../ChildrenMinistry/AWANAGraduateUpdate.aspx">AWANA Graduation Update</a></li>                
+                                    </ul>
+                                </li>
+                                <li> <a href="../ChildrenMinistry/ChildrenSundaySchool.aspx">Sunday School</a></li>   
+                                <li> <a href="../ChildrenMinistry/VBS.aspx">VBS</a></li>                
+                              </ul>
+                              
+                        </li>  
+                         <li > <a href="#">Fellowship</a>
+                            <ul>
+                                <li> <a href="../Fellowship/FellowshipHome.aspx"  >Fellowship Home</a></li>   
+                                <li> <a href="../Fellowship/FellowshipAdministration.aspx"  >Fellowship Administration</a></li>                             
+                            </ul>
+                         </li>
+                          <li > <a href="#">Outreach</a>
+                            <ul>
+                                <li> <a href="../Outreach/EEMinistrry.aspx"  >EE Ministrry</a></li>   
+                                <li> <a href="../Outreach/MissionaryWork.aspxx"  >Missionary Work</a></li>                             
+                            </ul>
+                         </li>
+                      
+
+                           <li id="Equipment"> <a href="#">Equipment</a>
+                            <ul>
+                                <li> <a href="../Equipment/EquipmentManagement.aspx"  >Equipment Management</a></li>   
+                                                       
+                            </ul>
+                         </li>
+                         <li id="li2"> <a href="#">Help</a>
+                           
+                         </li>
+                    </ul>
+                    </div> 
+        
+      
+         <section class="sig-content sig-content-lists grid_12">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="3600"></asp:ScriptManager>
+      
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+        </asp:ContentPlaceHolder>
+        </section>
+         <footer class="sig grid_12">
+      
+        <div class="copyright" >
+                © 2013 Boston Metrowest Bible Church
+            </div>
+            <div class="contact">
+                Contact <a href="mailto:bmwbc@yahoo.com">BMWBC Administrator</a> for more information.
+            </div>
+        </footer>
+   
+      </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\My Documents\ChurchManagement\CMWebSite\bin\CMWebSite.dll
+C:\My Documents\ChurchManagement\CMWebSite\bin\CMWebSite.pdb
+C:\My Documents\ChurchManagement\CMWebSite\bin\DataAccess.dll
+C:\My Documents\ChurchManagement\CMWebSite\bin\DataAccess.pdb
+C:\My Documents\ChurchManagement\CMWebSite\obj\Debug\CMWebSite.csprojResolveAssemblyReference.cache
+C:\My Documents\ChurchManagement\CMWebSite\obj\Debug\CMWebSite.dll
+C:\My Documents\ChurchManagement\CMWebSite\obj\Debug\CMWebSite.pdb

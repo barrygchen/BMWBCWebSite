@@ -1,0 +1,322 @@
+﻿
+
+.reportTableCell
+{
+    /*background-color: #E2E1D2;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 8pt;
+    cursor:default;
+    /* color: #016f86;*/
+    color: #666;
+    
+}
+
+.reportTable
+{
+	border-collapse: collapse;
+}
+
+.grayText
+{
+	color: grey;
+}
+
+#repeaterContainer
+{
+    font-family: Arial ;
+    font-size:14px; 
+
+}
+
+
+.TreeNode {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #ec8026;
+	border-right: 1px solid #ec8026;
+	background-color: #ec8026;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.TreeHover {
+	background-color: #ec8026;
+	color: #FFFFFF;
+}
+
+.TreeVisited {
+	background-color: #fcaf17;
+	/* color: #ec8026; */
+	color: #FFFFFF;
+}
+
+
+.buttonASP { border-style:outset; background:transparent url("../images/button1.jpg") no-repeat right top; color:White; padding-right:20px; padding-bottom: 5px; border:none }
+
+#content { z-index: 998; }
+
+#content-top { width: 100%; background-color: white; }
+#content-top .inner {  padding-right: 6.5px; padding-left: 6.5px; margin: 0 auto; text-align: left; position: relative; margin: 0 auto; padding-top: 15px; background-color: white; display: inline-block; }
+#content-top .inner:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#content-top .inner { display: block; }
+#content-top .inner .shadow-left { position: absolute; height: 164px; width: 18px; left: -18px; top: 0; background: url("../Images/box_shadow_left.jpg") no-repeat left top; }
+#content-top .inner .shadow-right { position: absolute; height: 164px; width: 18px; right: -18px; top: 0; background: url("../Images/box_shadow_right.jpg") no-repeat left top; }
+
+#content { width: 100%; background-color: white; }
+#content .inner { padding-right: 6.5px; padding-left: 6.5px; margin: 0 auto; text-align: left; padding: 15px 0 0px 0;  display: inline-block; background-color: white; }
+#content .inner:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#content .inner { display: block; }
+
+.blockdiv
+{
+    border:1px solid black
+    display:none;
+}
+
+.TaskTitle
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.WarningText
+{
+    color: Red;
+}
+
+.UpdateReadWarning
+{
+    position: absolute;
+    width: 300px;
+    height:     100px;
+    left: 50px;
+    top: 150px;
+    background-color: White;
+    border: solid 2px black;
+    padding: 10px;
+    /* display: none; */
+    font-family:Arial;
+}
+
+.updatetextnormal
+{
+    color:Black;
+}
+
+.updatetextWarning
+{
+    color:Red;
+}
+
+.FootNote
+{
+    margin-left:10px;
+    vertical-align:bottom;
+    
+}
+
+.AppDisplay
+{
+    vertical-align:bottom;
+}
+.appTitle
+{
+    font-family: Verdana;
+    color: #e44c16;
+    /*color: #ec8026;*/
+    font-size : 20px;
+    font-weight: bold;
+    letter-spacing: -0.03em
+}
+
+.appsubTitle
+{
+    font-family: Verdana;
+    padding-left: 0.3em;
+    color:rgb(99,67,41);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.fontBlack
+{
+    font-weight:bold;
+}
+
+.popupwarningtext
+{
+    font-family: Verdana;
+    color: #e44c16;
+    /*color: #ec8026;*/
+    font-size : 14px;
+    font-weight: bold;
+    letter-spacing: -0.03em
+}
+
+.container_head
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.FeedbackLinks
+{
+    float:right;
+    /*color: rgb(236, 128, 28);*/
+    /* color: #cc3300; */
+    color:#c30;
+    font-weight:bold;
+    font-family: Verdana;
+    font-size: 8px;
+    text-align:right;
+    vertical-align:bottom;
+    text-decoration:none;
+}
+
+.divLeftBar
+{
+    border:3px solid #e44c16;
+    /*border:3px solid #ec8026;*/
+    vertical-align:top;
+}
+
+.divRightBar
+{
+    border:3px solid #fcaf17;
+    margin-left:5px;
+    vertical-align:top;
+}
+
+.currentUser
+{
+    color: rgb(99,67,41);
+    text-align:right;
+    vertical-align:bottom;
+}
+
+.newMySite
+{
+    float:left;
+   
+    display:none;
+    z-index: 200;
+}
+
+.mySiteLink
+{
+      color:#c30;
+      text-decoration:none;
+}
+
+.newswirleyContainer
+{
+     z-index:1000;
+   
+    position:absolute;
+    left:200px;
+    top: 200px;
+}
+
+.sectionTitle
+{
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pagemargin
+{
+    padding-left:50px;
+    padding-right: 10px;
+    padding-top:10px;
+}
+.tblFailureReasons td
+{
+    font-size: 11px;
+    height: 25px;
+    text-transform: uppercase;
+    border-right: dotted 1px white;
+}
+
+.tblFailureReasons td a
+{
+    text-decoration: underline;
+}
+
+
+.footer {
+    position:absolute;
+	top:92%;
+	left:10;
+	width:100%;
+	z-index:100;
+}
+
+.modalPopup 
+{
+    position: absolute;
+    width: 300px;
+   
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+
+}
+
+.modalPopup p {
+    padding: 5px;
+}
+
+.divLayout
+{
+    border: solid 2px #F2A98F; 
+    border-radius: 7px 7px 7px 7px;
+    padding: 10px 10px 10px 10px;
+}
+
+ .RadioButtonWidth label 
+ { 
+     margin-right: 20px
+ }
+
+.PageFunction
+{
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+
+.textRed
+{
+    color:Red;
+}
+
+.btnLink
+{
+    color:Blue;
+    border:none;
+    background-color:inherit;  
+    text-decoration: Underline;
+}
+
+.blockAddress
+{
+    border:1px solid black
+
+}
+
+.buttonASP { border-style:outset; background:transparent url("../images/button1.jpg") no-repeat right top; color:White; padding-right:20px; padding-bottom: 5px; border:none }
+.buttonASP_back { border-style:outset; padding-left: 20px; padding-top: 1px; background:transparent url("../images/button1_back.jpg") no-repeat left top; color:White; padding-right:20px; padding-bottom: 5px; border:none }
+
+
+.buttonASP_noGraphic { border-style:outset; background:transparent url("../images/button4.jpg") no-repeat right top; color:White; padding-right:20px; padding-bottom: 5px; border:none }
+
+.buttonASP_disabled { border-style:outset; background:transparent url("../images/button1.jpg") no-repeat right top; color:White; padding-right:20px; padding-bottom: 5px; border:none; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30);}
